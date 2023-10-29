@@ -1,5 +1,5 @@
 # nvm-windows-auto-version-switching
-nvm-windowsを使ってNode.jsのバージョンを自動で切り替える
+Node.jsのバージョンを自動で切り替える
 
 # 使用条件
 - OSはWindows
