@@ -2,7 +2,7 @@
 `.nvmrc`を見て、Node.jsのバージョンを自動で切り替える
 
 # 使用条件
-- OSはWindows
+- OSはWindowsを使用している
 - [Git Bash](https://gitforwindows.org/)を使用している
 - [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)を使用している
 
