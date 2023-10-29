@@ -3,7 +3,7 @@
 
 # 使用条件
 - OSはWindows
-- Git Bashを使用している
+- [Git Bash](https://gitforwindows.org/)を使用している
 - [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)を使用している
 
 # インストール方法
