@@ -1,12 +1,10 @@
 cd() {
-  # 通常のcdコマンドを実行
   builtin cd "$@"
 
-  # 現在のNVMのバージョンを取得
-  current_nvm_version=$(nvm current | sed 's/^v//')
-
   if [ -f ".nvmrc" ]; then
-    # .nvmrcが存在する場合、その中のバージョン番号を読み取る
+    # 現在のNVMのバージョンを取得
+    current_nvm_version=$(nvm current | sed 's/^v//')
+    # .nvmrcが存在する場合、その中のバージョンを読み取る
     nvm_version=$(cat .nvmrc)
 
     if [ "$current_nvm_version" != "$nvm_version" ]; then
