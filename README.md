@@ -3,8 +3,8 @@ nvm-windowsを使ってNode.jsのバージョンを自動で切り替える
 
 # 使用条件
 - OSはWindows
-- [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)を使っている
 - Git Bashを使用している
+- [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)を使っている
 
 # インストール方法
 1. ホームディレクトリに`.bashrc`を作成する
