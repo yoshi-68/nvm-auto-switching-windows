@@ -7,11 +7,12 @@ nvm-windowsを使ってNode.jsのバージョンを自動で切り替える
 - Git Bashを使用している
 
 # インストール方法
-- .bashrcに[コード](https://github.com/yoshi-68/nvm-auto-switching-windows/blob/main/.bashrc)を追加する
+1. ホームディレクトリに`.bashrc`を作成する
+1. `.bashrc`に[コード](https://github.com/yoshi-68/nvm-auto-switching-windows/blob/main/.bashrc)を記述する
 
 # 動作
-cd先に.nvmrcがあれば、自動で`nvm use`を使用してNode.jsのバージョンを切り替える
-
+- cd先に`.nvmrc`があれば、自動で`nvm use`を使用してNode.jsのバージョンを切り替える
+- cd先に`.nvmrc`が無ければ何もしない
 ```
 # .nvmrc
 20.9.0
